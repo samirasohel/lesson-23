@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity 3</title>
+</head>
+<body>
+    <h3>Call stack in js</h3>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        function sum(a,b){
+            return a+b;
+        }
+        function avg(x,y){
+            return sum(x,y)/2;
+        }
+        let result=avg (23,27);
+        document.getElementById("p1").innerHTML=result;
+    
+        
+    </script>
+</body>
+</html>
